@@ -90,8 +90,6 @@ playButton.addEventListener('click', function(){
 	artist.innerText = currentSong().artistName
 	song.innerHTML = currentSong().songName
 	spin()
-	nextSong()
-	spin()
 })
 
 pauseButton.addEventListener('click', function(){
@@ -116,8 +114,6 @@ const nextSong = ()=> {
 		audio.pause()
 		audio = new Audio(songs[newSongIndex].url)
 		audio.play()
-		nextSong()
-		spin()
 		return currentSongIndex = newSongIndex
 	} else {
 		popUp.classList.add('pop-up')
@@ -144,8 +140,6 @@ const previousSong= () => {
 		currentSong(newSongIndex)
 		audio = new Audio(songs[newSongIndex].url)
 		audio.play()
-		nextSong()
-		spin()
 		return currentSongIndex = newSongIndex
 	}
 }
