@@ -153,3 +153,8 @@ previousButton.addEventListener('click', function(){
 	previousSong()
 	spin()
 })
+
+audio.addEventListener('ended', function() {
+ nextSong()
+ spin()
+})
