@@ -21,7 +21,7 @@ let songs = [
 	songName: "A Change in My Life", 
 	url: "https://od.lk/s/ODNfMTA2NDM1NTY4Xw/rockapella-a-change-in-my-life.mp3"},
 	{artistName: "Rascal Flatts", 
-	songName: "Bless the Broke Road", 
+	songName: "Bless the Broken Road", 
 	url: "https://od.lk/s/ODNfMTA2NDM1NTIxXw/rascal-flatts-bless-the-broken-road.mp3"},
 	{artistName: "Kristin Chenoweth", 
 	songName: "You're My Saving Grace", 
